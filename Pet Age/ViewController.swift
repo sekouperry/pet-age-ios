@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     @IBAction func findAge(sender: AnyObject) {
         
+        var enteredAge = age.text.toInt()
+        
+        var catYears = enteredAge! * 7
+        
         println(age.text)
         
     }
